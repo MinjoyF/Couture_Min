@@ -38,9 +38,13 @@ public class App {
         ClientAccount acc= clientAccountMap.get("acc2");
         System.out.println(acc.geType());
 
-        System.out.println("-------CLIENT2---------");
-        ClientAccount acc1= clientAccountMap.get("acc6");
+        ClientAccount acc1= clientAccountMap.get("acc3");
         System.out.println(toJson(acc1));
+
+
+        System.out.println("-------CLIENT2---------");
+        ClientAccount acc2= clientAccountMap.get("acc6");
+        System.out.println(toJson(acc2));
 
         System.out.println("-------CLIENT3---------");
         for(String key: clientAccountMap.keySet()){
